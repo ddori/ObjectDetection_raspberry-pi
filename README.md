@@ -1,5 +1,6 @@
 # ObjectDetection_raspberry-pi
 for raspberrypi
+will be updated soon!!
 You can use RaspberryPi ObjectDetection Project
 
 # Develop enviroment
