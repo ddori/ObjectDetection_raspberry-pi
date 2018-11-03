@@ -24,7 +24,12 @@ for raspberrypi
 1. Train
 - ./darknet detector train data/obj.data data/yolo-obj.cfg darknet19_448.conv.23 -gpus 0,1,2
 (gpus is option. if you have 1 graphic card, this command must be ignored)
-1. ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_800.weights data/data/img/frame77.jpg
+
+2. convert model to keras
+- python3 ./yad2k.py yolo-obj.cfg yolo-obj_final.weights model_data/yolo.h5
+(you have to use YAD2K) 
+3. Detect
+- ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_800.weights data/data/img/frame77.jpg
 
 
 
