@@ -25,9 +25,14 @@ for raspberrypi
 
 
 
-#Result
-10000 Times
+# Result
+- 10000 Times
 <div>
  <img src="https://user-images.githubusercontent.com/30073100/47947460-3a229700-df60-11e8-9964-f1c3ec88071f.jpg" width="90%"></img>
+ </div>
+ 
+- 45000 Times( It takes 20Hours)
+<div>
+ <img src="https://user-images.githubusercontent.com/30073100/47953159-e4300c80-dfbc-11e8-9874-19008b774f76.jpg" width="90%"></img>
  </div>
 
