@@ -21,6 +21,9 @@ for raspberrypi
 - darknet yolo
 
 # Usage
+1. Train
+- ./darknet detector train data/obj.data data/yolo-obj.cfg darknet19_448.conv.23 -gpus 0,1,2
+(gpus is option. if you have 1 graphic card, this command must be ignored)
 1. ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_800.weights data/data/img/frame77.jpg
 
 
