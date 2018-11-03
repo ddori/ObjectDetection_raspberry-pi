@@ -15,8 +15,8 @@ You can use RaspberryPi ObjectDetection Project
 
 
 # Requriement
-1. openCV 3.4.3
-2. Cuda 9.0 , Cudnn 7 
+- openCV 3.4.3
+- Cuda 9.0 , Cudnn 7 
 
 
 # Usage
