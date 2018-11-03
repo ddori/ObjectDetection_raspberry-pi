@@ -2,19 +2,19 @@
 for raspberrypi
 You can use RaspberryPi ObjectDetection Project
 
-#Develop enviroment
-<Collect Image & Test Device>
-1. Raspberry pi (model B+)
-2. Picamera
+# Develop enviroment
+ 1. Collect Image & Test Device
+- Raspberry pi (model B+)
+- Picamera
 
-<Train>
-OS  :Ubuntu 18.0.4 
-CPU : 17-5930K
-RAM : 32G
-GC  : 1080 GTX * 3
+ 2. Train Device
+- OS  :Ubuntu 18.0.4 
+- CPU : I7-5930K
+- RAM : 32G
+- GC  : 1080 GTX * 3
 
 
-#Requriement
+# Requriement
 1. openCV 3.4.3
 2. Cuda 9.0 , Cudnn 7 
 
