@@ -1,7 +1,7 @@
 # ObjectDetection_raspberry-pi
 for raspberrypi
-will be updated soon!!
-You can use RaspberryPi ObjectDetection Project
+- will be updated soon!!
+- You can use RaspberryPi ObjectDetection Project
 
 # Develop enviroment
  1. Collect Image & Test Device
@@ -18,7 +18,7 @@ You can use RaspberryPi ObjectDetection Project
 # Requriement
 - openCV 3.4.3
 - Cuda 9.0 , Cudnn 7 
-
+- darknet yolo
 
 # Usage
 1. ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_800.weights data/data/img/frame77.jpg
