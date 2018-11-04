@@ -19,6 +19,8 @@ for raspberrypi
 - openCV 3.4.3
 - Cuda 9.0 , Cudnn 7 
 - darknet yolo
+- (install git clone https://github.com/pjreddie/darknet )
+- (install http://pjreddie.com/media/files/darknet19_448.conv.23 ) we use convolutional layer
 
 # Usage
 1. Train ( I used 182 images to train)
