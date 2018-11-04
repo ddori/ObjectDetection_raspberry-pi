@@ -25,6 +25,7 @@ for raspberrypi
 
 # Usage
 1. Collect Data
+- run raspberry-pi_collect_video.cpp in raspberry-pi
 - You can collect Data by pi-camera
 
 2. Labelling & Annotation
@@ -46,6 +47,7 @@ for raspberrypi
 - (image) ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_final.weights data/data/img/frame77.jpg
 - (webcam) ./darknet detector demo data/obj.data data/yolo-obj.cfg backup/ yolo-obj_final.weights data
 - (Use keras) ( my Drive install https://drive.google.com/file/d/1eONvYCq8_C0zAjYAS8zGAVnBWfsxDk6C/view?usp=sharing ) (run yolo.py)
+- (raspberry pi) ./ Object_detection_sameple.py
 
 
 # Result
