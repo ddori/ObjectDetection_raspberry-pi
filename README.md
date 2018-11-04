@@ -21,15 +21,17 @@ for raspberrypi
 - darknet yolo
 
 # Usage
-1. Train
+1. Train ( I used 182 images to train)
 - ./darknet detector train data/obj.data data/yolo-obj.cfg darknet19_448.conv.23 -gpus 0,1,2
 (gpus is option. if you have 1 graphic card, this command must be ignored)
 
 2. convert model to keras
 - python3 ./yad2k.py yolo-obj.cfg yolo-obj_final.weights model_data/yolo.h5
 (you have to use YAD2K) 
+
 3. Detect
-- ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_800.weights data/data/img/frame77.jpg
+- (image) ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_final.weights data/data/img/frame77.jpg
+- (webcam) ./darknet detector demo data/obj.data data/yolo-obj.cfg backup/ yolo-obj_final.weights data
 
 
 
@@ -41,6 +43,8 @@ for raspberrypi
  
 - 45000 Times( It takes 20Hours)
 <div>
- <img src="https://user-images.githubusercontent.com/30073100/47953159-e4300c80-dfbc-11e8-9874-19008b774f76.jpg" width="90%"></img>
+ <img src="https://user-images.githubusercontent.com/30073100/47953159-e4300c80-dfbc-11e8-9874-19008b774f76.jpg" width="90%">
+ <img src="https://user-images.githubusercontent.com/30073100/47959927-6bb86280-e033-11e8-8af1-4ca2c5ee38ce.jpg" width'"90%">
+ </img>
  </div>
 
