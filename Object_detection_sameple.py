@@ -20,7 +20,7 @@ from utils import visualization_utils as vis_util
 
 
 #change your custom model
-MODEL_NAME = 'ssdlite_mobilenet_v2_coco_2018_05_09'
+MODEL_NAME = 'yolo-obj_final.weights'
 
 
 CWD_PATH = os.getcwd()
