@@ -31,7 +31,7 @@ for raspberrypi
 - I used Yolo-Mark, ( https://github.com/AlexeyAB/Yolo_mark)
 
 3. Use Yolo Darknet & Train ( I used 182 images to train)
-- Darknet Program and Dataset are so heavy, so I uploaded my Drive()
+- Darknet Program and Dataset are so heavy, so I uploaded my Drive(https://drive.google.com/file/d/1KTNUmuxOhssscucPWSsgPmbsnv6b0G1z/view?usp=sharing)
 - ./darknet detector train data/obj.data data/yolo-obj.cfg darknet19_448.conv.23 -gpus 0,1,2
 (gpus is option. if you have 1 graphic card, this command must be ignored)
 
@@ -40,12 +40,12 @@ for raspberrypi
 2. convert model to keras
 - python3 ./yad2k.py yolo-obj.cfg yolo-obj_final.weights model_data/yolo.h5
 - (you have to use YAD2K https://github.com/allanzelener/YAD2K ) 
-- (Or you can use my Drive())
+- (Or you can use my Drive(https://drive.google.com/file/d/1VmJsqE6bcqWh_NFlCYqkLak48A9xABax/view?usp=sharing))
 
 3. Detect
 - (image) ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_final.weights data/data/img/frame77.jpg
 - (webcam) ./darknet detector demo data/obj.data data/yolo-obj.cfg backup/ yolo-obj_final.weights data
-- (Use keras) (run yolo.py)
+- (Use keras) ( my Drive install https://drive.google.com/file/d/1eONvYCq8_C0zAjYAS8zGAVnBWfsxDk6C/view?usp=sharing ) (run yolo.py)
 
 
 # Result
