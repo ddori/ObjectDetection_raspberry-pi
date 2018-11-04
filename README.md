@@ -27,7 +27,7 @@ for raspberrypi
 
 2. convert model to keras
 - python3 ./yad2k.py yolo-obj.cfg yolo-obj_final.weights model_data/yolo.h5
-(you have to use YAD2K) 
+(you have to use YAD2K https://github.com/allanzelener/YAD2K ) 
 
 3. Detect
 - (image) ./darknet detector test data/obj.data data/yolo-obj.cfg backup/yolo-obj_final.weights data/data/img/frame77.jpg
