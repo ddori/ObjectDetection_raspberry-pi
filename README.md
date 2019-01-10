@@ -12,7 +12,7 @@ for raspberrypi
 - OS  :Ubuntu 18.0.4 
 - CPU : I7-5930K
 - RAM : 32G
-- GC  : 1080 GTX * 3
+- GPU  : 1080 GTX * 3
 
 
 # Requriement
